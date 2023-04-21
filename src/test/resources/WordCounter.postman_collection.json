@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "217a03b4-b82f-427b-9eda-da297c60b3bf",
+		"name": "WordCounter",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12826267",
+		"_collection_link": "https://bold-zodiac-393384.postman.co/workspace/DailyPay~36cb841f-1b54-449c-aeea-a9a61ad152ee/collection/12826267-217a03b4-b82f-427b-9eda-da297c60b3bf?action=share&creator=12826267&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "addSentence",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"sentence\": \"quick brown fox\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/wordCount/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"wordCount",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
